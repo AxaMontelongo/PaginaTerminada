@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form action="." oninput="range_control_value.value" = 
+    range_control.valueAsNumber>
+        <p>
+            Nombre: <input type="text" name="name_control" autofocus required placeholder="Escribe tu nombre" />
+            Apellido: <input type="text" name="name_control" autofocus required placeholder="Escribe tu apellido" />
+        <br />
+        <br />
+        <br />
+            correo electronico: <input type="email" name="email_control" required />
+        <br />
+        <br />
+        <br />
+            Url: <input type="url" name="url_control" placeholder="Escribe la url" />
+        <br />
+        <br />
+        <br />
+            Fecha: <input type="date" name="date_control"/>
+        <br />
+        <br />
+        <br />
+            Tiempo: <input type="time" name="time_control"/>
+        <br />
+        <br />
+        <br />
+            Fecha y hora de nacimiento: <input type="datetime" name="datetime_control"/>
+        <br />
+        <br />
+        <br />
+            mes: <input type="month" name="month_contol"/>
+        <br />
+        <br />
+        <br />
+            Semana: <input type="week" name="week_contol"/>
+        <br />
+        <br />
+        <br />
+            Numero (min: 0, max: 10): <input type="number" name="numbre_control" min="-10" max="10" value="0"/>
+        <br />
+        <br />
+        <br />
+            Intervalo (min: 0, max: 10): <input type="range" name="range_control" min="-10" max="10" value="0"/>
+            <output for="range_control" name="range_control_value">0</output> 
+        <br />
+        <br />
+        <br />
+            Telefono: <input type="tel" name="tel_control"/>
+        <br />
+        <br />
+        <br />
+            Termino busqueda: <input type="search" name="search_control"/>
+        <br />
+        <br />
+        <br />
+            Color favorito: <input type="color" name="color_control"/>
+        <br />
+        <br />
+        <br />
+            <input type="submit" value="submit"/>
+        </p>
+    </form>
+</body>
+</html>
