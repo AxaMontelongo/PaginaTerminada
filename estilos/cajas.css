@@ -1,0 +1,38 @@
+/* Estilos para la caja 1 */
+.caja1 {
+    background-color: #F5DEB3;
+    border: 2px solid #A0522D;
+    padding: 20px;
+    box-shadow: 5px 5px 5px grey;
+    margin-bottom: 20px;
+}
+
+/* Estilos para la caja 2 */
+.caja2 {
+    background-color: #ADD8E6;
+    border: 2px solid #000080;
+    padding: 10px;
+    box-shadow: 3px 3px 3px grey;
+    margin-bottom: 20px;
+}
+/* Estilos para la caja 3 */
+.caja3 {
+    background-color: #FFDAB9;
+    border: 2px solid #FFA07A;
+    padding: 15px;
+    box-shadow: 2px 2px 2px grey;
+    margin-bottom: 20px;
+}
+.caja4 {
+    background-image: url("/multimedia/box.png");
+    background-color: #000080;
+    background-repeat: no-repeat;
+    background-size: 380px;
+    border: 2px solid #A0522D;
+    padding: 100px;
+    box-shadow: 5px 5px 5px grey;
+    width: 150px; /* establecemos el mismo valor para width y height */
+	height: 76px;
+    margin: auto;
+    margin-bottom: 20px;			
+}
